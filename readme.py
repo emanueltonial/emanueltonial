@@ -121,7 +121,7 @@ def get_languages(username: str, token: str):
     data = graphql_request(LANGUAGES_QUERY, username, token)
     nodes = data["data"]["user"]["repositories"]["nodes"]
 
-    EXCLUDE_REPOS = {"faculdade", "aula1004", "alg_java"}
+    EXCLUDE_REPOS = {"faculdade", "aula1004", "alg_java", "dev"}
 
     languages = {}
     for repo in nodes:
