@@ -2,7 +2,7 @@
   -- stats ─────────────────────────────────────────────────
 
   > stars           2
-  > commits (ytd)   310
+  > commits (ytd)   311
   > pull requests   6  (6 merged)
 
   -- languages ─────────────────────────────────────────────
